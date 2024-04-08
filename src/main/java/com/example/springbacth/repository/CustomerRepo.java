@@ -1,0 +1,1 @@
+package com.example.springbacth.repository;import com.example.springbacth.entity.Customer;import org.springframework.data.repository.CrudRepository;import org.springframework.stereotype.Component;import org.springframework.stereotype.Repository;@Componentpublic interface CustomerRepo extends CrudRepository<Customer, Long> {}
